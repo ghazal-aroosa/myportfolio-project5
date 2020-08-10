@@ -29,4 +29,4 @@ jobs:
     - name: Setup Surge
       run: npm install --global surge
     - name: deploy
-      run: surge ./build  ghazal-aroosa.surge.sh --token ${{secrets.SURGE_TOKEN1}}
+      run: surge ./build ghazal-aroosa.surge.sh --token ${{ secrets.SURGE_TOKEN }}
